@@ -15,7 +15,7 @@
 resolutionMask=1024         # 20x20
 
 # Variable that determines size (in pixels) of heightmap
-# resolutionHeightmap=256   # 5x5
+# resolutionHeightmap=257   # 5x5
 # resolutionHeightmap=513   # 10x10
 resolutionHeightmap=1025    # 20x20
 
