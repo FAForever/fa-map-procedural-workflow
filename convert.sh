@@ -20,7 +20,7 @@ resolutionMask=1024         # 20x20
 resolutionHeightmap=1025    # 20x20
 
 # Variable that determines where we store the converted files
-target="../Auralian_-_The_Core.v0017/"
+target="../paradise_atoll/"
 
 # Utility function to create a directory, if it doesn't exist yet
 
