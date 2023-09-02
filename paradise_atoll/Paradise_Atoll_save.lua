@@ -25,19 +25,19 @@ Scenario = {
     MasterChain = {
         ['_MASTERCHAIN_'] = {
             Markers = {
-                ['ARMY_1'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 512, 21.43099, 716 ),
-                },
                 ['ARMY_2'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 511, 21.44661, 307 ),
+                    ['position'] = VECTOR3( 511, 20.25123, 307 ),
+                },
+                ['ARMY_1'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 512, 19.58713, 716 ),
                 },
             },
         },
