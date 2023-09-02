@@ -25,19 +25,19 @@ Scenario = {
     MasterChain = {
         ['_MASTERCHAIN_'] = {
             Markers = {
-                ['ARMY_2'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 511, 20.25123, 307 ),
-                },
                 ['ARMY_1'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 512, 19.58713, 716 ),
+                },
+                ['ARMY_2'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 511, 20.25123, 307 ),
                 },
             },
         },
@@ -82,6 +82,26 @@ Scenario = {
                 orders = '',
                 platoon = '',
                 Units = {
+                    ['INITIAL'] = GROUP {
+                        orders = '',
+                        platoon = '',
+                        Units = {
+                            ['UNIT_0'] = {
+                                type = 'uel0401',
+                                orders = '',
+                                platoon = '',
+                                Position = { 642.5, 31.52536, 231.5 },
+                                Orientation = { 0, 0, 0 },
+                            },
+                            ['UNIT_1'] = {
+                                type = 'uel0401',
+                                orders = '',
+                                platoon = '',
+                                Position = { 381.5, 31.05268, 792.5 },
+                                Orientation = { 0, -3.141593, 0 },
+                            },
+                        },
+                    },
                 },
             },
             PlatoonBuilders = {
